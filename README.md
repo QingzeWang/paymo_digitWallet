@@ -53,10 +53,10 @@
 * import time: In order to count for how much time elapsed
 
 ### code in python
-* In order to figure out the relationship of two customers in transatction, I build a class named paymo, which includes three main methods: 
-    1, paymoGraph　==> Build users' graph based on current transaction records. 
-    2, paymoDegree ==> Calculate the number of degree between any two users up to 4. 
-    3, paymoOutput ==> Calculate the number of degree for each incoming record from stream_payment.txt and generate 3 different output files. 
+In order to figure out the relationship of two customers in transatction, I build a class named paymo, which includes three main methods: 
+    *, paymoGraph　==> Build users' graph based on current transaction records. 
+    *, paymoDegree ==> Calculate the number of degree between any two users up to 4. 
+    *, paymoOutput ==> Calculate the number of degree for each incoming record from stream_payment.txt and generate 3 different output files. 
     
 ## 3, Detail of implementation
 The transaction data for each record is stored in the following format:
