@@ -77,7 +77,7 @@ Thus, before doing data analysis, one need to split the data in a list and make 
 After checking my code, I build my own transaction records stored in the required format. The relationship among users is shown in the diagram.
 <img src="./image/graph.png" width="500">
 
-In the stream_payment.txt file, The number of degree between different users should be
+Thus, the number of degree between different users should be
 * 1 and 2 ==> degree: 1
 * 1 and 11 ==> degree: 2
 * 1 and 7 ==> degree: 2
